@@ -1,0 +1,35 @@
+@media only screen and (max-width:576px) {
+   .container {
+      max-width: 400px;
+      flex-wrap: wrap;
+
+   }
+
+   .hamburger-mobile {
+      display: block;
+
+   }
+
+   .menu ul {
+      display: none;
+   }
+
+   .first-container {
+      flex-direction: column;
+   }
+
+   .photo {
+      display: none;
+      /* flex-wrap: wrap; */
+   }
+
+   .second-container {
+
+      justify-content: center;
+
+   }
+
+   .second-container-sneaker-audiocall {
+      flex-wrap: wrap;
+   }
+}

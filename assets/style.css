@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F5F4;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+/* header css start */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.1;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    text-decoration: none;
+}
+
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+i {
+    color: #757575;
+}
+
+header nav ul li a:hover+i {
+    color: green;
+}
+
+/* header .account */
+
+header nav .account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .account a {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #C3DCE3;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 14px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    text-decoration: none;
+    /* Letter A in blue radius */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+
+}
+
+header nav .account .alex {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+header nav .account button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 30px;
+    cursor: pointer;
+    /* margin-top:3px; */
+}
+
+.hamburger-mobile {
+    display: none;
+}
+
+
+/* header end */
+
+/* <===========section-start=================> */
+/* first-section start */
+
+.first-container {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+
+
+.first-container-content h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2B788B;
+    margin-bottom: 24px;
+
+}
+
+.first-container-content h1 {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-right: 75px;
+}
+
+.first-container-content h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-top: 30px;
+}
+
+.first-container-content a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    /* Letter A in blue radius*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    text-decoration: none;
+    margin-top: 46px;
+    margin-bottom: 30px;
+
+}
+
+.first-container-general-info {
+    display: flex;
+    align-items: center;
+    gap: 48.78px;
+    flex-grow: 0.5;
+}
+
+
+
+
+.hr {
+    width: 0px;
+    height: 48.78px;
+    border: 1.21942px solid #E0E0E0;
+}
+
+.photo {
+
+    position: absolute;
+    width: 933px;
+    height: 601px;
+    left: 870.05px;
+    top: 109px;
+
+}
+
+.photo .backphoto {
+    position: absolute;
+    width: 143px;
+    height: 171px;
+    left: 15.5px;
+    top: 187px;
+}
+
+.photo .boy {
+    position: absolute;
+    width: 608.73px;
+    height: 507.28px;
+    left: 51.77px;
+    top: 0px;
+}
+
+.photo .kaktus {
+    position: absolute;
+    width: 536px;
+    height: 571px;
+    left: 396.5px;
+    top: 30px;
+}
+
+
+
+.info-one .sixhundread {
+    margin-left: 10px;
+}
+
+.info-two .twoplus {
+    margin-left: 10px;
+}
+
+
+
+/* ===========firs-section-end========= */
+
+
+
+/* =======second-section-start========== */
+
+.second-container {
+    display: flex;
+    align-items: center;
+    max-width: 1180px;
+    margin-top: 100px;
+
+}
+
+
+
+.second-container-image img {
+
+    width: 580px;
+    height: 445px;
+    left: 370px;
+    top: 77.5px;
+
+}
+
+
+
+
+.second-container-general-info h1 {
+
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.second-container-general-info h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-top: 30px;
+}
+
+.second-container-sneaker-audiocall {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+
+
+}
+
+.second-container-sneaker-audiocall .sprint {
+
+    padding: 14px 22px;
+    gap: 19px;
+    width: 129px;
+    height: 112px;
+    left: 1.95px;
+    top: 239.5px;
+    background: #F2D4DC;
+    border-radius: 14px;
+    margin-top: 61px;
+
+    /* sprint-word */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    letter-spacing: -0.04em;
+    color: #945069;
+    text-decoration: none;
+
+
+}
+
+.second-container-sneaker-audiocall .sneakers-image {
+
+    position: relative;
+    right: 135px;
+    width: 131px;
+    height: 106px;
+   
+
+}
+
+
+
+.second-container-sneaker-audiocall .audio-call {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14px 22px;
+
+    width: 172px;
+    height: 112px;
+    left: 152.05px;
+    top: 239px;
+    background: #C3DCE3;
+    border-radius: 14px;
+    margin-top: 63px;
+
+    /* audio-call-word */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: end;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    text-decoration: none;
+}
+
+.second-container-sneaker-audiocall .audiocall-image {
+    position: relative;
+    right: 125px;
+    width: 91px;
+    height: 106px;
+
+}
+
+
+/* =======second-section-end========== */
